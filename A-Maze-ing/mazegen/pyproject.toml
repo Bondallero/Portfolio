@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mazegen"
+version = "0.1.0"
+license = "MIT"
+description = "Maze generation library (recursive backtracker) with pathfinding"
+readme = "README.md"
+authors = ["abrzoska, wgulinsk"]
+packages = [{ include = "mazegen", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
